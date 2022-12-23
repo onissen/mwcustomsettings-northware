@@ -15,5 +15,10 @@
     $wgGroupPermissions['sysop']['usermerge'] = true;
     $wgGroupPermissions['sysop']['deletedhistory '] = true;
     $wgGroupPermissions['sysop']['undelete'] = true;
-    
+
+
+
+
+    $wgBlockDisablesLogin = true;
+
 ?>

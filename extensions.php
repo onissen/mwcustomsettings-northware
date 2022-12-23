@@ -7,6 +7,8 @@ wfLoadExtension( 'CategoryTree' );
 wfLoadExtension( 'InputBox' );
 wfLoadExtension( 'Theme' ); # Needs to be implemented if vector-northware Theme is used
 wfLoadExtension( 'UserMerge' ); # Customized in grouprights.php
+wfLoadExtension( 'DumpsOnDemand' );
+wfLoadExtension( 'DataDump' );
 
 ## Start here with Customizing the extension's behavior.
 
@@ -16,5 +18,4 @@ $wgCategoryTreeSidebarRoot = 'Category:DisplaySidebar';
 
 # Theme Extension
 $wgDefaultTheme = "vector-northware"; #UPO
-
 ?>
